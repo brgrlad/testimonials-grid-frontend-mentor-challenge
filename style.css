@@ -1,0 +1,206 @@
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 1440px;
+    height: auto;
+    margin: auto;    
+}
+
+
+
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+}
+
+
+
+p{
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+
+
+h1{
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+
+
+
+h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+h3{
+    font-size: 18px;
+    opacity: 50%;
+    font-weight: 300;  
+}
+
+
+
+/* wrapper for the four central cards */
+.centerquotes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;     
+    
+
+}
+
+
+/* wrapper for the stretched, right side quote  */
+.rightquote{
+ 
+   width: 25%;
+   
+    
+}
+
+.namebox{
+    align-items: center;
+    display: flex;
+    
+
+    
+}
+
+.namebox img{
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: rgba(0, 0, 0, 0.137) solid;
+    
+    
+}   
+
+
+.mynames{
+    line-height: 5px;
+}
+
+
+.mynames p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 5px;
+    margin-left: 5px;
+}
+
+
+
+.quote-img{
+    background-image: url(images/bg-pattern-quotation.svg);
+    z-index: -1 ;
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+        
+    
+}
+
+
+
+.mybox1, .mybox2, .mybox3{
+
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 45px 49px;
+    margin: 9px 9px;
+    box-shadow: 5px 5px 30px grey;
+
+
+}
+
+
+.mybox1{
+    width: 66%;    
+    
+    
+    
+}
+
+.mybox2{
+    
+    width: 30%;   
+    
+
+}
+
+
+.mybg-purple{
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+
+}
+
+
+.mybg-black{
+    background-color: hsl(219, 29%, 14%);
+    color: white;    
+
+}
+
+
+.mybg-grey{
+    background-color:  hsl(217, 19%, 35%);
+    color: white;
+    
+}
+
+
+.mybg-white{
+    background-color: (0, 0%, 100%)
+
+}
+
+
+
+
+
+
+/* m---------------------media queries---------------------- */
+
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 100%;
+    }
+    
+
+    
+    .container, .centerquotes{
+        display: block;     
+        
+        
+    }
+
+
+    .mybox1, .mybox2, .mybox3, .centerquotes, .rightquote, .mybg-purple{
+        min-width: 100%;
+        margin: 10px 0;
+        
+        
+
+        
+        
+        
+    }
+
+
+
+
+
+ 
+
+  }
